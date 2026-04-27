@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
+using TMPro;
 
 public class CardGame : MonoBehaviour
 {
@@ -15,8 +16,6 @@ public class CardGame : MonoBehaviour
     {
         StartGame();
     }
-
-   
 
     // Update is called once per frame
     void Update()
@@ -48,7 +47,7 @@ public class CardGame : MonoBehaviour
         return newCardNumbers;
     }
 
-
+   
     //게임루프
     private void StartGame()
     {
