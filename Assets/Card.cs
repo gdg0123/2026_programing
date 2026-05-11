@@ -13,6 +13,10 @@ public class Card : MonoBehaviour
     private Quaternion originRotation = Quaternion.Euler(0, 0, 0);
     public CardGame cardGame;
 
+    public Sprite frontSprite;
+    public Sprite backSprite;
+
+
     //����
 
     //�Լ�
@@ -53,6 +57,14 @@ public class Card : MonoBehaviour
     public void Flip(bool isFront)
     {
         this.isFront = isFront;
+        if(isFront)
+        {
+            GetComponent<Image>().sprite = frontSprite;
+        }
+        else
+        {
+            GetComponent<Image>().sprite = backSprite;
+        }
     }
 
 
@@ -72,7 +84,8 @@ public class Card : MonoBehaviour
 
     public void SetImage(Sprite sprite)
     {
-        GetComponent<Image>().sprite = sprite;
+        frontSprite = sprite;
+        GetComponent<Image>().sprite = backSprite;
     }
 
 

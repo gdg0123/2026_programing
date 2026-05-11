@@ -370,8 +370,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &112965867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,8 +603,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &134258136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,8 +1164,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &331356648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1723,8 +1717,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &449514588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,8 +1869,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &459591732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2031,8 +2021,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &512372024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2541,7 +2529,6 @@ GameObject:
   m_Component:
   - component: {fileID: 936351073}
   - component: {fileID: 936351072}
-  - component: {fileID: 936351074}
   m_Layer: 0
   m_Name: CardGame
   m_TagString: Untagged
@@ -2608,26 +2595,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &936351074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936351071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df2c96907aba0dd48ada8e390638f5e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Card
-  text: {fileID: 0}
-  cardNumber: 0
-  rotationSpeed: 0
-  isFront: 1
-  isMatched: 0
-  cardGame: {fileID: 0}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 21300000, guid: 8a9a435eeed56b64d8c4f7da0b9200d1, type: 3}
 --- !u!1 &969826888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,8 +2709,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &969826892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2896,8 +2861,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &995160298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3050,8 +3013,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1070638939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3204,8 +3165,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1122373445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3358,8 +3317,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1135363042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3770,8 +3727,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1255822399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3924,8 +3879,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1270843923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4215,8 +4168,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1296105189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4369,8 +4320,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1302718801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4934,8 +4883,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1429153071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5088,8 +5035,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1482243656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5379,8 +5324,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1542061913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5533,8 +5476,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1701799875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5687,8 +5628,6 @@ MonoBehaviour:
   isFront: 1
   isMatched: 0
   cardGame: {fileID: 936351072}
-  frontSprite: {fileID: 0}
-  backSprite: {fileID: 0}
 --- !u!114 &1727741892
 MonoBehaviour:
   m_ObjectHideFlags: 0
