@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
+using TMPro;
 
 public class CardGame : MonoBehaviour
 {
@@ -10,13 +11,16 @@ public class CardGame : MonoBehaviour
     private Card secondCard = null;
     private bool isChecking = false;
 
+    public int pairCount = 10;
+
+    public Card cardPrefab;
+    public Transform Game;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         StartGame();
     }
-
-   
 
     // Update is called once per frame
     void Update()
@@ -48,10 +52,26 @@ public class CardGame : MonoBehaviour
         return newCardNumbers;
     }
 
-
+   
     //게임루프
     private void StartGame()
     {
+        int totalCards = pairCount * 2;
+
+        if(pairCount > 10)
+        {
+            Debug.LogError("페어카드의 수는 최대 10개입니다.");
+            return;
+        }
+
+        for(int i = 0; i < totalCards; ++i)
+        {
+            Card newCard = Instantiate(cardPrefab, Game);
+            newCard.cardGame = this;
+            cards.Add(newCard);
+        }
+        
+
         List<int> randomPairNumbers = GeneratePairNumbers(cards.Count);
 
         for(int i = 0; i < cards.Count; ++i)
