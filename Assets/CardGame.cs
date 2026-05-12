@@ -56,11 +56,13 @@ public class CardGame : MonoBehaviour
     //게임루프
     private void StartGame()
     {
+        SoundManager.instance.PlayBGMSound();
+
         int totalCards = pairCount * 2;
 
         if(pairCount > 10)
         {
-            Debug.LogError("페어카드의 수는 최대 10개입니다.");
+            Debug.LogError("10 이하의 숫자를 입력해주세요.");
             return;
         }
 
@@ -135,11 +137,13 @@ public class CardGame : MonoBehaviour
         {
            firstCard = card;
            firstCard.Flip(true);
+            SoundManager.instance.PlaySound();
         }
         else if(firstCard != card)
         {
            secondCard = card;
            secondCard.Flip(true);
+            SoundManager.instance.PlaySound();
         } 
 
         if(firstCard != null && secondCard != null)
