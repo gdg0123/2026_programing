@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class GameController : MonoBehaviour
     void Awake()
     {
         instance = this;
+        PlayerPrefs.DeleteKey("SavedScore");
     }
 
     // Update is called once per frame
@@ -33,6 +35,9 @@ public class GameController : MonoBehaviour
 
     public void ClearGame()
     {
-        clear.SetActive(true);
+        if(clear != null) clear.SetActive(true);
+
+        PlayerPrefs.SetInt("SavedScore", score);
+        PlayerPrefs.Save();
     }
 }
