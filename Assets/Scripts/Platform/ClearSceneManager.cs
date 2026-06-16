@@ -12,7 +12,7 @@ public class ClearSceneManager : MonoBehaviour
     {
         int finalScore = PlayerPrefs.GetInt("SavedScore", 0);
 
-        finalScoreText.text = "Score: " + finalScore.ToString();
+        finalScoreText.text = "Your Score: " + finalScore.ToString();
     }
 
     // Update is called once per frame

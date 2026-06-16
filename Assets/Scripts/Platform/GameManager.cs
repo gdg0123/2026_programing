@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("ºÎµúÈû" + collision.gameObject.name);
 
         if (collision.gameObject.CompareTag("GameOver"))
         {
